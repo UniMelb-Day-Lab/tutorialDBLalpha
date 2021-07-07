@@ -12,7 +12,7 @@ This tutorial provides a step by step example how to use these bioinformatic pip
 3. **Classify** the unique DBL&alpha; types to their most probable DBL&alpha; domain class;
 4. **Combine** the cluster and classify output files for the DBL&alpha; type analyses
 
-> NOTE: For each step in this tutorial the input and output files are provided in the data folder.
+> NOTE: For each step in this tutorial the input and output files are provided in the data folder. The expected run time for the tutorial is ~30 - 45 mins. 
 
 <br />
 

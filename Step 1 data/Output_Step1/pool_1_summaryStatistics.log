@@ -1,0 +1,15 @@
+# Total paired end reads: 143827
+# Total reads prior to contaminant filtering: 96
+# Total reads after contaminant filtering: 95
+#######  FlexBar Summary statistics  #######
+# Total reads processed: 575308
+# Reads skipped due to uncalled bases: 0
+# Unassigned reads: 0
+# Short reads skipped: 0
+# Single reads skipped: 0
+# Total reads discarded: 0
+# Proportion of reads kept: 100.0
+#######  Sample specific summary statistics  #######
+Sample,PreMerge,Merged,Discarded,Not Assembled,Filtered,Chimeric,Centroids,Centroids with support,After contaminant filtering,3D7,DD2,HB3
+S4MRS3D7.MID108-108.P1.Dec16,66197,62684,0,3513,33470,1340,58,52,51,48,0,1
+S4MRSDd2.MID110-110.P1.Dec16,77630,75902,0,1728,28319,2325,48,44,44,0,43,0

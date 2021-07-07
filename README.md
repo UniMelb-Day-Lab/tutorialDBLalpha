@@ -168,17 +168,6 @@ ups_example <-fread("~/Desktop/pool_combine123_DBLa_reads_to_domains.csv", data.
 ## Binary Example: Rename OTU to DBLa type
 binary_example<-binary_example%>% rename_at("#OTU ID", ~"DBLa_type")
 
-# binary_example to a matrix for cleaning
-binary_example <- binary_example %>% column_to_rownames("DBLa_type")
-# Step 1: Remove isolates with <20 DBLa types
-binary_example<-binary_example[, colSums(binary_example) > 19]
-# Step 2: Remove any DBLa types that are not observed in any isolates
-binary_example <- binary_example[rowSums(binary_example) > 0, ]
-
-# binary_example back to a data.frame
-binary_example <- binary_example %>% rownames_to_column("DBLa_type")
-
-
 ## Ups Example: Categorize the DBLa domains as upsA, non-upsA, or other
 ups_example $read <- gsub(";.*", "", ups_example$read)
 ups_example  <- ups_example  %>% rename_at("read", ~"DBLa_type")

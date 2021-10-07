@@ -7,7 +7,7 @@ version v1.0.0
 Bioinformatic pipelines developed by the Day Lab at The University of Melbourne for analysing targeted amplicon sequencing for a defined region of the DBL&alpha; domains of the antigen-encoding *P. falciparum* *var* genes.
 
 This tutorial provides a step by step example how to use these bioinformatic pipelines to: 
-1. **Clean** raw Illumina sequence data to generate DBL&alpha; tage per isolate ;
+1. **Clean** raw Illumina sequence data to generate DBL&alpha; tags per isolate ;
 2. **Cluster** the cleaned DBL&alpha; tags to define unique DBL&alpha; types;
 3. **Classify** the unique DBL&alpha; types to their most probable DBL&alpha; domain class;
 4. **Combine** the cluster and classify output files for the DBL&alpha; type analyses

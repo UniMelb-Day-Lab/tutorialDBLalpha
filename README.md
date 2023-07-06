@@ -169,11 +169,11 @@ ups_example <-fread("~/Desktop/pool_combine123_DBLa_reads_to_domains.csv", data.
 binary_example<-binary_example%>% rename_at("#OTU ID", ~"DBLa_type")
 
 ## Ups Example: Categorize the DBLa domains as upsA, non-upsA, or other
-ups_example $read <- gsub(";.*", "", ups_example$read)
+ups_example$read <- gsub(";.*", "", ups_example$read)
 ups_example  <- ups_example  %>% rename_at("read", ~"DBLa_type")
 ups_example$domain <- as.factor(ups_example$domain)
 
-ups_example $Ups <- ifelse(grepl("^DBLa1", ups_example$domain, ignore.case = T), "upsA",
+ups_example$Ups <- ifelse(grepl("^DBLa1", ups_example$domain, ignore.case = T), "upsA",
                     ifelse(grepl("^DBLa0", ups_example$domain, ignore.case = T), "non-upsA", 
                     ifelse(grepl("^DBLa2", ups_example$domain, ignore.case = T), "non-upsA", "Other")))
 ups_example$Ups <- as.factor(ups_example$Ups)

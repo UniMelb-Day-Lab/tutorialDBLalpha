@@ -1,5 +1,5 @@
-Coming Soon: FAQ Page!
+# Coming Soon: FAQ Page!
 
-Got questions? We’ve got answers. Our upcoming FAQ page will cover topics from getting started to advanced downstream analyses of varcoding DBLa data.
+Got questions? We’ve got answers. Our upcoming FAQ page will cover topics from varcoding basics to advanced downstream analyses of DBLa data.
 
 Stay tuned!

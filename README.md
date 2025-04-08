@@ -189,6 +189,9 @@ write.table(isolate_ups_example, file="pool_combine123_DBLa_binary_ups.csv", sep
 <br />
 <br />
 
+## What's next?
+We're working on an FAQ section to help clarify the _var_coding method — what it is, how it works, and how to interpret the outcomes. You'll find explanations on how this fingerprinting approach can be applied in practical contexts, e.g. estimating multiplicity of infection (MOI) and assessing parasite census population sizes.
+
 ## References
 Please use the following citations, as indicated, when referencing these bioinformatic pipelines:
 
